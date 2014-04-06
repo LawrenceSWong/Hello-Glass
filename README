@@ -1,6 +1,6 @@
 Hello Glass is a very basic application written for Google Glass.
 
-It's voice trigger is "Hello Glass" and it displays a card to say "Hello, Sir! ...Or Ma'am".
+It's voice trigger is "Hello Glass" and it displays a card to say "Hello, Glass Class, .. welcome to a 16z".
 
 I strongly recommend looking at Google's official documentation - https://developers.google.com/glass/develop/gdk/
 
