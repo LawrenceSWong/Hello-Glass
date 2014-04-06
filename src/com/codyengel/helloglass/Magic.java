@@ -1,9 +1,7 @@
 /*
  * Magic.java
  * @author Cody Engel
- * http://codyengel.info
  * 
- * This is the service which is started from HelloGlass.java, this is where the magic happens.
  */
 package com.codyengel.helloglass;
 
@@ -20,13 +18,11 @@ public class Magic extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		/*
-		 * We're creating a card for the interface.
 		 * 
-		 * More info here: http://developer.android.com/guide/topics/ui/themes.html
 		 */
 		Card card1 = new Card(this);
-		card1.setText("Hello, Sir!"); // Main text area
-		card1.setFootnote("..or Ma'am"); // Footer
+		card1.setText("Hello, Glass Workshop!"); // Main text area
+		card1.setFootnote("..welcome to a16z"); // Footer
 		View card1View = card1.toView();
 		
 		// Display the card we just created
